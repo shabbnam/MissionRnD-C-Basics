@@ -32,7 +32,7 @@ namespace spec
 			Assert::AreEqual(1, isOlder("15-05-2000", "15-07-2000"), L"isOlder: Person one is elder", LINE_INFO());
 			Assert::AreEqual(2, isOlder("29-06-2000", "29-02-2000"), L"isOlder: Person two is elder", LINE_INFO());
 			Assert::AreEqual(1, isOlder("11-07-2000", "15-07-2000"), L"isOlder: Person one is elder", LINE_INFO());
-			Assert::AreEqual(2, isOlder("29-02-2000", "27-02-2000"), L"isOlder: Person two is elder", LINE_INFO());
+			Assert::AreEqual(2, isOlder("29-02-2000","27-02-2000"), L"isOlder: Person two is elder", LINE_INFO());
 		}
 	};
 }
